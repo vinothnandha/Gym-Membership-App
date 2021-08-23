@@ -294,7 +294,7 @@ class superuser:
         flag = True
         while flag:
             try:
-                self.choice = int(input("\nPress 1 To Create a Member \nPress 2 To View a Member \nPress 3 To Remova a Member \nPress 4 To Update a Member \nPress 5 To Create Workout Regimen \nPress 6 To View Workout Regimen \nPress 7 To Remove Workout Regimen \nPress 8 To Update Workout Regimen \nPress 0 To Exit"))
+                self.choice = int(input("\nPress 1 To Create a Member \nPress 2 To View a Member \nPress 3 To Remove a Member \nPress 4 To Update a Member \nPress 5 To Create Workout Regimen \nPress 6 To View Workout Regimen \nPress 7 To Remove Workout Regimen \nPress 8 To Update Workout Regimen \nPress 0 To Exit"))
                 if self.choice == 1:
                     self.create_member()
                 elif self.choice == 2:
